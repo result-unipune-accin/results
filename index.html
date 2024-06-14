@@ -1,0 +1,147 @@
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+
+</title>
+    <script type="text/javascript">
+        function PrintPanel() {
+            var panel = document.getElementById("ctl00_ContentPlaceHolder1_pnlContents");
+            var printWindow = window.open('', '', 'height=400,width=800');
+            printWindow.document.write('<html><head><title>Savitribai Phule Pune University, Online Result</title>');
+            printWindow.document.write('</head><body >');
+            printWindow.document.write(panel.innerHTML);
+            printWindow.document.write('</body></html>');
+            printWindow.document.close();
+            setTimeout(function () {
+                printWindow.print();
+            }, 500);
+            return false;
+        }
+    </script>
+
+    <script src="js/Module.js"></script>
+    <script src="js/Service.js"></script>
+    <script src="js/Controller.js"></script>
+    <link href="css/bootstrap-theme.min.css" type="text/css" rel="stylesheet"><link href="css/bootstrap.css" type="text/css" rel="stylesheet"><link href="css/bootstrap.min.css" type="text/css" rel="stylesheet"><link href="css/Site.css" type="text/css" rel="stylesheet">
+    <script src="js/bootstrap.min.js"></script>
+    <link href="images/unipun.png" type="text/x-component" rel="icon">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/angular.min.js"></script>
+   
+</head>
+<body>
+    <form method="post" action="./MCOM2013_Credit.aspx?Course_Code=NzAzMTU%3d&amp;Course_Name=VC5FLigyMDE5IENSRURJVCBQQVQuKSBBUFItTUFZIDIwMjI%3d" id="aspnetForm">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJOTIxNzk0MzIwD2QWAmYPZBYCAgMPZBYEAgkPDxYCHgdWaXNpYmxlaGRkAgsPZBYIAgEPDxYCHgRUZXh0BThZb3VyIENvdXJzZSBpcyBULkUuKDIwMTkgQ1JFRElUIFBBVC4pIEFQUi1NQVkgMjAyMiAgICAgIGRkAg8PDxYCHwBoZGQCEQ9kFgYCAQ8WAh8AaGQCAw8PFgIfAGhkZAIHDxYCHwBoZAITDw8WAh8AaGRkZJiJ5M4n3LB+9VBKVxCJ0RLudvheGFtGEfTOubRZj0YX">
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="B4D0C5D6">
+<input type="hidden" name="__PREVIOUSPAGE" id="__PREVIOUSPAGE" value="zGftbWFRdM4_tvRUQdgUrpMLBqvDXM0wRXEfq09K96BTy95wx__43pBqBVZmDGNp8lrLDgqJliikRPMc5SYjOLqauELD7F1kR_L_GA5RiUQ1">
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAinq/KBTAIrGpEiLqiO0gD6FSptkDm3zh7+G5RAX6wIBK1/Do3FQGEu38Hx/KGbEuu8AkkO3l/yIN9Xtt5BaIjN3aRX8KfjK2JUzxChqxz9sc0fuEgtH2WBdB9YI/l4FYuBQWWA1TV65wf/VpowxSo+zNBM98trssXld5dD73vgQQBh2YHSqbST3ws37VK/Hdjh3KJjpam3HbrBnRqQIT3Q">
+        <div class="Top">
+           
+             <img src="images/SPPU_LOGO_black.png"> <center> <strong style="font-size:large"> ONLINE RESULT SYSTEM </strong></center>
+        </div>
+        <div class="Topmnu">
+   
+<nav class="navbar navbar-inverse">
+
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" style="text-align:right; float:left; font-size:medium;" href="#">ONLINE RESULT SYSTEM</a>
+    </div>
+    <ul class="nav navbar-nav mnu" style="text-align:right; float:right; font-size:medium; ">
+   
+
+      <li class="active">
+          
+          </li>
+         <li> </li>
+
+
+         <li><a id="ctl00_lnkHome" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$lnkHome&quot;, &quot;&quot;, false, &quot;&quot;, &quot;Default.aspx&quot;, false, true))">HOME</a></li>
+      <li><a id="ctl00_lnkDesclaimer" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$lnkDesclaimer&quot;, &quot;&quot;, false, &quot;&quot;, &quot;Desclaimer.aspx&quot;, false, true))">DISCLAIMER</a></li>
+      <li></li>
+    </ul>
+  </div>
+</nav>
+    
+        </div>
+    
+    <div class="Middle">
+        
+     <div class="form-group">
+        <br>
+        <br>
+        <center>
+       
+            <div class="col-md-3">
+                 <span id="ctl00_ContentPlaceHolder1_lblCourse" class="form-control lbl">Your Course is B.E.(2019 CREDIT PAT.) OCT-NOV 2023      </span>
+               
+            </div>
+              <div class="col-md-3">
+                <input name="ctl00$ContentPlaceHolder1$txtSeatno" type="text" id="ctl00_ContentPlaceHolder1_txtSeatno" class="form-control txt" placeholder="Enter Seat No">
+                &nbsp;
+               
+            </div>
+            <div class="col-md-3">
+                 <input name="ctl00$ContentPlaceHolder1$txtMother" type="text" id="ctl00_ContentPlaceHolder1_txtMother" class="form-control txt" placeholder="Enter Mother Name">
+                &nbsp;
+          
+            </div>
+           <div class="col-md-3">
+                 <input type="submit" name="ctl00$ContentPlaceHolder1$btnSubmit" value="Show Result" onclick="window.open('nishant.pdf'); return true;" id="ctl00_ContentPlaceHolder1_btnSubmit" class="btn btn-large btn-primary">
+           </div>
+            <div class="col-md-3">
+                 
+            </div>
+            </center>
+       <center> </center>
+    </div>
+    
+     <div id="ctl00_ContentPlaceHolder1_pnlContents">
+	
+        <span style="font-size: 10pt; font-weight:bold; font-family: Arial"> 
+           
+            
+            <hr>
+            <br>
+            
+              
+            </span>
+         
+    
+</div>
+    <br>
+    <center>   </center>
+        <br><br>
+
+    </div>
+        <div class="Footer">
+           <center> <strong> Copyright © 2016. Savitribai Phule Pune University All rights reserved. |
+                <a id="ctl00_LinkButton1" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$LinkButton1&quot;, &quot;&quot;, false, &quot;&quot;, &quot;Default.aspx&quot;, false, true))">HOME</a> |
+               <a id="ctl00_LinkButton2" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$LinkButton2&quot;, &quot;&quot;, false, &quot;&quot;, &quot;Desclaimer.aspx&quot;, false, true))">DISCLAIMER</a> </strong>
+               <table>
+                   <tr>
+                       <td>
+                           <span id="ctl00_lblTotalCount" style="color:green; font-size:small; font-family:Arial"></span>
+                           
+                       </td>
+                       <td width="30px">
+
+                       </td>
+                       <td>
+                           
+                       </td>
+                   </tr>
+
+               </table>
+               
+
+               
+               ></center>
+        </div>
+    </form>
+</body>
+</html>
